@@ -1,16 +1,20 @@
-import os
 import smtplib
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
-def send_mail(from_addr, to_addrs,  body, subject = None, host = None, port = None):
-    host = host or os.getenv("HOSTNAME")
-    port = port or os.getenv("SMTP_PORT")
 
-    if isinstance(to_addrs, str):
-        to_addrs = [to_addrs]
-
+def send_mail(host, port, from_addr, to_addrs, body, subject=None):
+    """
+    :param host:
+    :param port:
+    :param from_addr:
+    :param to_addrs:
+    :param body:
+    :param subject:
+    :return:
+    """
     lines = [
         "From: {}".format(from_addr),
         "To: {}".format(', '.join(to_addrs)),
@@ -21,9 +25,7 @@ def send_mail(from_addr, to_addrs,  body, subject = None, host = None, port = No
 
     msg = "\r\n".join(lines)
 
-
     server = smtplib.SMTP(host, port)
     server.set_debuglevel(1)
     server.sendmail(from_addr, to_addrs, msg)
     server.quit()
-
