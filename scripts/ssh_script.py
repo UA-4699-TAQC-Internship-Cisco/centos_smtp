@@ -1,7 +1,4 @@
 import paramiko
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 def read_mail(hostname, username, password):

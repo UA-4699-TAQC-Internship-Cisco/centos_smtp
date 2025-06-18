@@ -1,9 +1,5 @@
 import smtplib
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 def send_mail(host, port, from_addr, to_addrs, body, subject=None):
     """
