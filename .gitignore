@@ -193,4 +193,14 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+### Mac OS ###
 .DS_Store
+
+### driver ###
+chromedriver.exe
+
+# Robot Ouput files
+log.html
+output.xml
+report.html
+selenium-screenshot*.png
