@@ -1,0 +1,248 @@
+2025-06-18 23:01:44 [INFO] Email sent from python@localhost to yuliasha@localhost
+2025-06-18 23:01:44 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-18 23:01:44 [INFO] Authentication (publickey) failed.
+2025-06-18 23:01:44 [INFO] Authentication (publickey) failed.
+2025-06-18 23:01:44 [INFO] Authentication (publickey) failed.
+2025-06-18 23:01:44 [INFO] Authentication (password) successful!
+2025-06-18 23:01:45 [INFO] From: root <root@localhost.localdomain>
+2025-06-18 23:01:45 [INFO] Subject: Test mail
+2025-06-18 23:01:45 [INFO] Body snippet: Hi there, Yulia!
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python2
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a second test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from centos
+2025-06-18 23:01:45 [INFO] Body snippet: Hello from CentOs
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python3
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a 3 test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python 4
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a 4th test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python 5
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a 5th test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python 6
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a 6th test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-18 23:01:45 [INFO] From: python@localhost
+2025-06-18 23:01:45 [INFO] Subject: Message from Python 7
+2025-06-18 23:01:45 [INFO] Body snippet: Hello! This is a 7th test email sent from a Python script.
+2025-06-18 23:01:45 [INFO] ----------------------------------------
+2025-06-19 10:13:16 [INFO] Email sent from python@localhost to yuliasha@localhost
+2025-06-19 10:13:16 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:13:16 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:16 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:16 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:16 [INFO] Authentication (password) successful!
+2025-06-19 10:13:17 [INFO] From: root <root@localhost.localdomain>
+2025-06-19 10:13:17 [INFO] Subject: Test mail
+2025-06-19 10:13:17 [INFO] Body snippet: Hi there, Yulia!
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python2
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a second test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from centos
+2025-06-19 10:13:17 [INFO] Body snippet: Hello from CentOs
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python3
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 3 test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 4
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 4th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 5
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 5th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 6
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 6th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 7
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 7th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Test last email
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! Here I am
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:13:17 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:17 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:17 [INFO] Authentication (publickey) failed.
+2025-06-19 10:13:17 [INFO] Authentication (password) successful!
+2025-06-19 10:13:17 [INFO] From: root <root@localhost.localdomain>
+2025-06-19 10:13:17 [INFO] Subject: Test mail
+2025-06-19 10:13:17 [INFO] Body snippet: Hi there, Yulia!
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python2
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a second test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from centos
+2025-06-19 10:13:17 [INFO] Body snippet: Hello from CentOs
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python3
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 3 test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 4
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 4th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 5
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 5th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 6
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 6th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Message from Python 7
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! This is a 7th test email sent from a Python script.
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] From: python@localhost
+2025-06-19 10:13:17 [INFO] Subject: Test last email
+2025-06-19 10:13:17 [INFO] Body snippet: Hello! Here I am
+2025-06-19 10:13:17 [INFO] ----------------------------------------
+2025-06-19 10:13:17 [INFO] Last email fetched - From: python@localhost | Subject: Test last email
+2025-06-19 10:19:49 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:19:49 [INFO] Authentication (publickey) failed.
+2025-06-19 10:19:49 [INFO] Authentication (publickey) failed.
+2025-06-19 10:19:49 [INFO] Authentication (publickey) failed.
+2025-06-19 10:19:49 [INFO] Authentication (password) successful!
+2025-06-19 10:19:49 [INFO] From: root <root@localhost.localdomain>
+2025-06-19 10:19:49 [INFO] Subject: Test mail
+2025-06-19 10:19:49 [INFO] Body snippet: Hi there, Yulia!
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python2
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a second test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from centos
+2025-06-19 10:19:49 [INFO] Body snippet: Hello from CentOs
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python3
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a 3 test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python 4
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a 4th test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python 5
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a 5th test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python 6
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a 6th test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Message from Python 7
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! This is a 7th test email sent from a Python script.
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:19:49 [INFO] From: python@localhost
+2025-06-19 10:19:49 [INFO] Subject: Test last email
+2025-06-19 10:19:49 [INFO] Body snippet: Hello! Here I am
+2025-06-19 10:19:49 [INFO] ----------------------------------------
+2025-06-19 10:20:56 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:20:56 [INFO] Authentication (publickey) failed.
+2025-06-19 10:20:56 [INFO] Authentication (publickey) failed.
+2025-06-19 10:20:56 [INFO] Authentication (publickey) failed.
+2025-06-19 10:20:57 [INFO] Authentication (password) successful!
+2025-06-19 10:20:57 [INFO] From: root <root@localhost.localdomain>
+2025-06-19 10:20:57 [INFO] Subject: Test mail
+2025-06-19 10:20:57 [INFO] Body snippet: Hi there, Yulia!
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python2
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a second test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from centos
+2025-06-19 10:20:57 [INFO] Body snippet: Hello from CentOs
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python3
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a 3 test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python 4
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a 4th test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python 5
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a 5th test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python 6
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a 6th test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Message from Python 7
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! This is a 7th test email sent from a Python script.
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] From: python@localhost
+2025-06-19 10:20:57 [INFO] Subject: Test last email
+2025-06-19 10:20:57 [INFO] Body snippet: Hello! Here I am
+2025-06-19 10:20:57 [INFO] ----------------------------------------
+2025-06-19 10:20:57 [INFO] Last email fetched - From: python@localhost | Subject: Test last email | Body: Hello! Here I am
+2025-06-19 10:38:42 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:38:42 [INFO] Authentication (publickey) failed.
+2025-06-19 10:38:43 [INFO] Authentication (publickey) failed.
+2025-06-19 10:38:43 [INFO] Authentication (publickey) failed.
+2025-06-19 10:38:43 [INFO] Authentication (password) successful!
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}, {'body': u'Hello! This is a 5th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 5'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}, {'body': u'Hello! This is a 5th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 5'}, {'body': u'Hello! This is a 6th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 6'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}, {'body': u'Hello! This is a 5th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 5'}, {'body': u'Hello! This is a 6th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 6'}, {'body': u'Hello! This is a 7th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 7'}]
+2025-06-19 10:38:43 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}, {'body': u'Hello! This is a 5th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 5'}, {'body': u'Hello! This is a 6th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 6'}, {'body': u'Hello! This is a 7th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 7'}, {'body': u'Hello! Here I am', 'from': u'python@localhost', 'subject': u'Test last email'}]
+2025-06-19 10:38:43 [INFO] Last email fetched - From: python@localhost | Subject: Test last email | Body: Hello! Here I am
+2025-06-19 10:40:43 [INFO] Connected (version 2.0, client OpenSSH_8.7)
+2025-06-19 10:40:43 [INFO] Authentication (publickey) failed.
+2025-06-19 10:40:43 [INFO] Authentication (publickey) failed.
+2025-06-19 10:40:43 [INFO] Authentication (publickey) failed.
+2025-06-19 10:40:44 [INFO] Authentication (password) successful!
+2025-06-19 10:40:44 [INFO] [{'body': u'Hi there, Yulia!', 'from': u'root <root@localhost.localdomain>', 'subject': u'Test mail'}, {'body': u'Hello! This is a test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python'}, {'body': u'Hello! This is a second test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python2'}, {'body': u'Hello from CentOs', 'from': u'python@localhost', 'subject': u'Message from centos'}, {'body': u'Hello! This is a 3 test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python3'}, {'body': u'Hello! This is a 4th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 4'}, {'body': u'Hello! This is a 5th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 5'}, {'body': u'Hello! This is a 6th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 6'}, {'body': u'Hello! This is a 7th test email sent from a Python script.', 'from': u'python@localhost', 'subject': u'Message from Python 7'}, {'body': u'Hello! Here I am', 'from': u'python@localhost', 'subject': u'Test last email'}]
+2025-06-19 10:40:44 [INFO] Last email fetched - From: python@localhost | Subject: Test last email | Body: Hello! Here I am
