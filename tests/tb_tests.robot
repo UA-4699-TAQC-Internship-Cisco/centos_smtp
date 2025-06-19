@@ -3,15 +3,16 @@ Library    BuiltIn
 Library    Process
 Library    OperatingSystem
 Library    SSHLibrary
-Library    TetianaBrekhova
+Library    ../scripts/TetianaBrekhova.py
 
 *** Variables ***
-${SMTP_HOST}    __________
+
+${SMTP_HOST}    ______
 ${SMTP_PORT}    25
-${FROM}         _____
-${TO}           ________
+${FROM}         ______
+${TO}           ______
 ${BODY}         This is a test message.
-${PASS}         ________
+${PASS}         ______
 
 
 *** Test Cases ***
@@ -22,7 +23,7 @@ Test SMTP Connection
 
 
 Check Body In Mail File
-#add send mail    Send Mail   ${SMTP_HOST}    ${FROM}    ${TO}   ${BODY}
+    Send Mail   ${SMTP_HOST}    ${FROM}    ${TO}   ${BODY}
     Open Connection    ${SMTP_HOST}
     Login              ${TO}    ${PASS}
     ${mail}=           Execute Command    cat /var/mail/tetiana
