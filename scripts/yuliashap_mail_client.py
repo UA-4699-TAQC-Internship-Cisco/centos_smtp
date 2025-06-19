@@ -65,13 +65,8 @@ class MailClient:
             except ValueError:
                 body = ""
 
-            logging.info("From: %s", frm)
-            logging.info("Subject: %s", subj)
-            logging.info("Body snippet: %s", body)
-            logging.info("-" * 40)
-
             parsed_emails.append({'from': frm, 'subject': subj, 'body': body})
-
+        logging.info(parsed_emails)
         return parsed_emails
 
     def get_last_email(self):
