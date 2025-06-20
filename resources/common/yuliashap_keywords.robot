@@ -21,9 +21,12 @@ Setup Variables
 
 Get Email Count
     ${output}=    Run Process    python    -c    from scripts.yuliashap_mail_send_and_read import read_all_emails; import os; from dotenv import load_dotenv; load_dotenv(); print(len(read_all_emails("${SSH_HOST}", int(${SSH_PORT}), "${SSH_USERNAME}", "${SSH_PASSWORD}", "${MAIL_FILE}")))
+    Log    RAW OUTPUT: ${output.stdout}
+    Should Not Be Empty    ${output.stdout}    msg=No output returned from read_all_emails
     ${stdout}=    Set Variable    ${output.stdout}
     ${count}=     Convert To Integer    ${stdout.strip()}
     [Return]      ${count}
+
 
 Send Email
     Run Process    python    -c    from scripts.yuliashap_mail_send_and_read import send_email; import os; from dotenv import load_dotenv; load_dotenv(); send_email("${SENDER}", "${RECIPIENT}", "${EMAIL_SUBJECT}", "${EMAIL_BODY}", "${SMTP_HOST}", int(${SMTP_PORT}))
