@@ -16,6 +16,7 @@ def send_mail(host, port, from_addr, to_addrs, body, subject=None):
     :param subject:
     :return:
     """
+
     lines = [
         "From: {}".format(from_addr),
         "To: {}".format(', '.join(to_addrs)),
