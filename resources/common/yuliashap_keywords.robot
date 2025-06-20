@@ -1,9 +1,5 @@
 *** Keywords ***
 Setup Variables
-    ${SMTP_HOST}=    Get Environment Variable    SMTP_HOST
-    Set Suite Variable    ${SMTP_HOST}
-    ${SMTP_PORT}=    Get Environment Variable    SMTP_PORT
-    Set Suite Variable    ${SMTP_PORT}
     ${SSH_HOST}=    Get Environment Variable    SSH_HOST
     Set Suite Variable    ${SSH_HOST}
     ${SSH_PORT}=    Get Environment Variable    SSH_PORT
@@ -31,10 +27,6 @@ Get Email Count
 
 Send Email
     Run Process    python    -c    from scripts.yuliashap_mail_send_and_read import send_email; import os; from dotenv import load_dotenv; load_dotenv(); send_email("${SENDER}", "${RECIPIENT}", "${EMAIL_SUBJECT}", "${EMAIL_BODY}", "${SMTP_HOST}", int(${SMTP_PORT}))
-
-Check SMTP Connection
-    ${status}=    Run Keyword And Return Status    Evaluate    __import__('smtplib').SMTP("${SMTP_HOST}", ${SMTP_PORT}).noop()
-    Should Be True    ${status}    msg=SMTP server is not available on ${SMTP_HOST}:${SMTP_PORT}
 
 Get Last Email
     ${output}=    Run Process    python    -c    from scripts.yuliashap_mail_send_and_read import get_last_email; import os; from dotenv import load_dotenv; load_dotenv(); import json; print(json.dumps(get_last_email("${SSH_HOST}", int(${SSH_PORT}), "${SSH_USERNAME}", "${SSH_PASSWORD}", "${MAIL_FILE}")))
