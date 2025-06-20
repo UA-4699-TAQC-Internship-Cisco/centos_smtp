@@ -1,30 +1,33 @@
+import logging
+import os
 import smtplib
 import paramiko
+from dotenv import load_dotenv
 
+load_dotenv()
+
+def validate_hostname(hostname, smtp_srv = smtplib.SMTP()):
+    return smtp_srv.docmd('ehlo', hostname)
 
 def connect_server(host, port = 25):
     try:
         smtp_server = smtplib.SMTP(host)
         return smtp_server
     except smtplib.SMTPServerDisconnected:
-        print "Cannot connect to Server, check the Host"
+        logging.exception("Cannot connect to Server, check the access to host")   ## Add config file
 
 def send_message_smtp(from_addr, to_addr, message, smtp_srv = smtplib.SMTP()):
     try:
         smtp_srv.verify(to_addr)
         smtp_srv.sendmail(from_addr, to_addr, message)
     except smtplib.SMTPRecipientsRefused:
-        print 'Address of the destination is Not valid'
+        logging.exception('Address of the destination is Not valid')
     finally:
         smtp_srv.quit()
 
-def check_smtp_mail(username, password, hostname):
+def read_recent_mail(username, password, host):
     session = paramiko.SSHClient()
     session.load_system_host_keys()
-    session.connect(hostname, 22, username, password)
-    _, stdout, _ = session.exec_command("cat /home/{}/Maildir/new/*".format(username))
-
-    for line in stdout.readlines():
-        print line.strip().decode()
-
-    session.close()
+    session.connect(host, 22, username, password)
+    _, stdout, _ = session.exec_command("recent_mail=$(ls --sort=time /home/{}/Maildir/new/ | head -n 1) && cat /home/{}/Maildir/new/$recent_mail".format(username, username))
+    return stdout.read().decode()
