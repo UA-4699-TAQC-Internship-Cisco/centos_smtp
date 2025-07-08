@@ -1,13 +1,10 @@
-import os
 import smtplib
+
+import paramiko
 from email.mime.text import MIMEText
 
-import dotenv
-import paramiko
+from resources.logger_config import setup_logger
 
-from resources.data.logger_config import setup_logger
-
-dotenv.load_dotenv()
 logger = setup_logger()
 
 
@@ -19,6 +16,9 @@ def send_email(sender, recipient, subject, body, server_ip, server_port):
 
     try:
         server = smtplib.SMTP(server_ip, server_port)
+        server.ehlo()
+        server.starttls()
+        server.ehlo()
         server.sendmail(sender, [recipient], msg.as_string())
         server.quit()
         logger.info("Email sent from %s to %s", sender, recipient)
@@ -29,7 +29,7 @@ def send_email(sender, recipient, subject, body, server_ip, server_port):
 def read_all_emails(host, port, username, password, mail_file):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(hostname=host, port=port, username=username, password=password)
+    ssh.connect(hostname=host, port=port, username=username, password=password, banner_timeout=10)
 
     _, stdout, _ = ssh.exec_command("cat {}".format(mail_file))
     content = stdout.read().decode('utf-8', 'ignore')
@@ -62,22 +62,3 @@ def get_last_email(host, port, username, password, mail_file):
     else:
         logger.warning("No emails found in the mailbox.")
         return None
-
-
-if __name__ == "__main__":
-    send_email(
-        sender=os.getenv("LOCAL_SENDER"),
-        recipient=os.getenv("REMOTE_RECIPIENT"),
-        subject=os.getenv("EMAIL_SUBJECT"),
-        body=os.getenv("EMAIL_BODY"),
-        server_ip=os.getenv("SERVER_IP"),
-        server_port=int(os.getenv("SERVER_PORT", 25))
-    )
-
-    get_last_email(
-        host=os.getenv("SSH_HOST"),
-        port=int(os.getenv("SSH_PORT", 22)),
-        username=os.getenv("SSH_USERNAME"),
-        password=os.getenv("SSH_PASSWORD"),
-        mail_file=os.getenv("EMAIL_DIR")
-    )

@@ -1,20 +1,27 @@
 *** Settings ***
-Library           OperatingSystem
-Library           Collections
-Library           String
-Library           BuiltIn
-Library           Process
-Resource          ../resources/common/yuliashap_keywords.robot
+Resource    resources/get_env.robot
+Resource    resources/email_keywords.robot
+Library     Collections
+Test Setup  Load Environment Variables
 
-Suite Setup       Setup Variables
+*** Variables ***
+
+${EMAIL_SUBJECT}    Test email
+${EMAIL_BODY}       This is a test email body.
+
+
 
 *** Test Cases ***
-Verify Email Delivery And Content
-    ${before}=    Get Email Count
-    Send Email
-    ${after}=     Get Email Count
-    Should Be True    ${after} == ${before} + 1    Email count should increase by 1
-    ${last}=     Get Last Email
-    Should Be Equal    ${last['from']}     ${SENDER}
-    Should Be Equal    ${last['subject']}  ${EMAIL_SUBJECT}
-    Should Contain     ${last['body']}     ${EMAIL_BODY}
+Test SMTP Connection
+    Verify SMTP Connection
+
+Send Test Email And Check Count
+    ${count_before}=    Get Email Count
+    Send Test Email
+    Sleep    5s
+    ${count_after}=     Get Email Count
+    Verify Email Count Increased    ${count_before}    ${count_after}
+
+Verify Email Contents
+    Verify Last Email Contents
+
