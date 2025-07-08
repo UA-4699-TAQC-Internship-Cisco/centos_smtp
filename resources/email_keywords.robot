@@ -1,7 +1,7 @@
 *** Settings ***
 Library    Collections
 Library    OperatingSystem
-Library    ../libraries/yuliashap_mail_send_and_read.py
+Library    libraries/mail_send_and_read.py
 
 
 *** Keywords ***
